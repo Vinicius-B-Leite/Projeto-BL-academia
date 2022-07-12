@@ -1,0 +1,58 @@
+.nossos-planos{
+    background-color: var(--preto);
+    width: 100vw;
+}
+
+.nossos-planos_cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.nossos-planos_cards-items{
+    padding: 2rem;
+    text-align: center;
+    border: .15rem solid var(--cinza);
+}
+
+.nossos-planos_cards-items_tempo{
+    color: var(--branco);
+    line-height: 2rem;
+}
+
+.nossos-planos_cards-items_preco{
+    color: var(--laranja);
+    font-size: 2.5rem;
+    line-height: 4rem;
+}
+
+.nossos-planos_cards-items_classe{
+    color: var(--cinza);
+    padding-bottom: 1rem;
+}
+
+.nossos-planos_cards-items_beneficios{
+    list-style: none;
+    color: var(--branco);
+    padding-top: .5rem;
+}
+.nossos-planos_cards-items_beneficios li{
+    padding-top: .3rem;
+}
+.nossos-planos_cards-items_botao{
+    margin-top: 1rem;
+    width: 100%;
+    border: 0;
+    background-color: var(--cinza);
+    color: var(--branco);
+    font-size: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.nossos-planos_cards-items_botao:hover{
+    background-color: var(--laranja);
+}

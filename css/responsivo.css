@@ -1,0 +1,139 @@
+@media screen and (max-width: 1126px) {
+    .nosso-time_cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 992px) {
+    .atividade-galeria{
+        gap: .5rem;
+    }
+}
+@media screen and (max-width: 960px) {
+    .box {
+        left: 50%;
+    }
+    
+}
+
+@media screen and (max-width: 920px) {
+    .porque-nos_cards{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 910px) {
+    .nossos-planos_cards-items:last-child{
+        margin-top: 2rem;
+    }
+}
+@media screen and (max-width: 774px) {
+    .home-nav{
+        transition: .5s;
+    }
+    .home-nav ul{
+        display: none;
+    }
+    .menu-hamburg{
+        position: absolute;
+        right: 10%;
+        top: 35%;
+    }
+    .menu-hamburg .um, .dois, .tres{
+        height: .3rem;
+        background-color: var(--branco);
+        width: 3rem;
+        margin: .3rem;
+        
+    }
+
+    /*ATIVADO*/
+
+    .home-nav.on{
+        background-color: black;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 11; 
+        display: flex;   
+        justify-content: center;
+        transition: .5s;
+        align-items: center;
+    }
+
+    .home-nav.on .menu-hamburg{
+        right: 10%;
+        top: 5%;
+    }
+
+    .home-nav.on .menu-hamburg .um{
+        transform: rotate(45deg) translate(7px, 7px);
+        background-color: var(--laranja);
+        transition: .5s;
+    }
+    .home-nav.on .menu-hamburg .dois{
+        opacity: 0;
+        transition: .5s;
+    }
+    .home-nav.on .menu-hamburg .tres{
+        transform: rotate(-45deg) translate(6px, -6px);
+        background-color: var(--laranja);
+        transition: .5s;
+    }
+
+    .home-nav.on ul{
+        display: block;        
+    }
+
+    .home-nav.on li a{
+        display: block;
+        line-height: 4rem;       
+    }
+
+    .atividade-galeria_items,
+    .atividade-galeria_items:nth-child(4),
+    .atividade-galeria_items:nth-child(5){
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 772px) {
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        left: 50%;
+        transform: translate(-50%);
+    }
+}
+@media screen and (max-width: 680px) {
+
+    .nossos-planos_cards-items{
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .rodape-contato{
+        flex-direction: column;
+    }
+
+    .rodape-contato_items{
+        padding-bottom: .5rem;
+    }
+}
+@media screen and (max-width: 440px) {
+    .conteiner{
+        padding-left: .5rem;
+        padding-right: .5rem;
+    }
+}
+@media screen and (max-width: 388px) {
+    .box {
+        top: 20%;
+    }
+    .box .hero-titulo{
+        white-space: normal;
+    }
+    
+}

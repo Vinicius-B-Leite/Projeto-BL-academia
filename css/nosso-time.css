@@ -1,0 +1,39 @@
+.nosso-time{
+    background-color: var(--preto2);
+    width: 100vw;
+}
+
+.nosso-time_cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.nosso-time_cards-integrantes{
+    width: 29rem;
+    background-color: var(--preto);
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+}
+.nosso-time_cards-integrantes_img{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.nosso-time_cards-integrantes_cargo,
+.nosso-time_cards-integrantes_nome,
+.nosso-time_cards-integrantes_descricao{
+    padding: .5rem;
+}
+
+.nosso-time_cards-integrantes_cargo{
+    color: var(--branco);
+}
+.nosso-time_cards-integrantes_nome{
+    color: var(--laranja);
+}
+.nosso-time_cards-integrantes_descricao{
+    color: var(--cinza);
+    text-align: justify;
+}

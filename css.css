@@ -1,0 +1,12 @@
+@import url('css/config.css');
+@import url('css/home.css');
+@import url('css/porque-nos.css');
+@import url('css/atividades.css');
+@import url('css/cadastre.css');
+@import url('css/nossos-planos.css');
+@import url('css/nosso-time.css');
+@import url('css/rodape.css');
+@import url('css/responsivo.css');
+body, html{
+    overflow-x: hidden;
+}

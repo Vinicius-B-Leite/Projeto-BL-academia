@@ -1,0 +1,19 @@
+.rodape{
+    background-color: var(--laranja);
+    width: 100vw;
+}
+
+.rodape-contato{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.rodape-contato_items{
+    color: var(--branco);
+}
+
+.rodape-contato_items p i{
+    margin-right: .3rem;
+    font-size: 1.2rem;
+}

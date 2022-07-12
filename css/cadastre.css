@@ -1,0 +1,29 @@
+.cadastre-banner{
+    object-fit: cover;
+    width: 100vw;
+    height: 40vh;
+    position: absolute;
+    z-index: -1;
+}
+.cadastre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 40vh;
+}
+.cadastre-button{
+    margin: 2rem;
+    width: 15rem;
+    font-size: 1.2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background-color: transparent;
+    border: .15rem solid var(--laranja);
+    border-radius: .5rem;
+    color: var(--laranja);
+    font-weight: 500;
+}
+
+
