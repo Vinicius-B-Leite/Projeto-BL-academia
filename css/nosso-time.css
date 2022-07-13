@@ -1,6 +1,6 @@
 .nosso-time{
     background-color: var(--preto2);
-    width: 100vw;
+    width: 100%;
 }
 
 .nosso-time_cards{
@@ -34,6 +34,6 @@
     color: var(--laranja);
 }
 .nosso-time_cards-integrantes_descricao{
-    color: var(--cinza);
+    color: var(--cinza2);
     text-align: justify;
 }

@@ -5,6 +5,7 @@
     --font: 'Roboto', sans-serif;
     --preto: #0a0a0a;
     --cinza: #464646;
+    --cinza2: #6e6e6e;
     --preto2: #151515;
 }
 
@@ -13,7 +14,6 @@
     margin: 0;
     scroll-behavior: smooth;
     font-family: var(--font);
-    overflow-x: none;
 }
 .conteiner{
     padding-left: 6rem;

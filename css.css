@@ -7,6 +7,4 @@
 @import url('css/nosso-time.css');
 @import url('css/rodape.css');
 @import url('css/responsivo.css');
-body, html{
-    overflow-x: hidden;
-}
+
